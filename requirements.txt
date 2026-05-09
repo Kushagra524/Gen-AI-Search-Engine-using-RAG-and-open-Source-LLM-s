@@ -1,0 +1,36 @@
+# ✅ Pinned versions - no dependency conflicts guaranteed
+# Install with: pip install -r requirements.txt
+
+# Core LangChain
+langchain==0.3.25
+langchain-community==0.3.24
+langchain-core==0.3.59
+langchain-text-splitters==0.3.8
+langchain-huggingface==0.1.2
+langchain-groq==0.3.2
+
+# LangGraph (fixes StateGraph.add_node error)
+langgraph==0.3.31
+
+# LangChain Hub (for pulling prompts)
+langchainhub==0.1.21
+
+# Vector Store
+faiss-cpu==1.10.0
+
+# Embeddings
+sentence-transformers==3.4.1
+
+# Tools
+arxiv==2.1.3
+wikipedia==1.4.0
+duckduckgo_search==2.8.0
+
+# Web Loader
+beautifulsoup4==4.12.3
+
+# Environment
+python-dotenv==1.2.2
+
+# Deployment
+streamlit

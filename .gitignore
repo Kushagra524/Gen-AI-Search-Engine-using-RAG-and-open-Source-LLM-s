@@ -1,0 +1,14 @@
+# Environment & API Keys
+.env
+.env.local
+.env.*.local
+
+# Virtual Environment
+gen_ai_search/
+
+# Python
+__pycache__/
+*.pyc
+
+.vscode/
+.idea/
